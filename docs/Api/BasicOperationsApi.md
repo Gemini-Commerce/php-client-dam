@@ -35,11 +35,6 @@ Batch Upload Assets
 require_once(__DIR__ . '/vendor/autoload.php');
 
 
-// Configure API key authorization: Authorization
-$config = GeminiCommerce\Dam\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
-// Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = GeminiCommerce\Dam\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
-
 
 $apiInstance = new GeminiCommerce\Dam\Api\BasicOperationsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
@@ -69,7 +64,7 @@ try {
 
 ### Authorization
 
-[Authorization](../../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -94,11 +89,6 @@ Batch Upload Assets
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-
-// Configure API key authorization: Authorization
-$config = GeminiCommerce\Dam\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
-// Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = GeminiCommerce\Dam\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
 
 $apiInstance = new GeminiCommerce\Dam\Api\BasicOperationsApi(
@@ -129,7 +119,7 @@ try {
 
 ### Authorization
 
-[Authorization](../../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -154,11 +144,6 @@ Create Asset
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-
-// Configure API key authorization: Authorization
-$config = GeminiCommerce\Dam\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
-// Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = GeminiCommerce\Dam\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
 
 $apiInstance = new GeminiCommerce\Dam\Api\BasicOperationsApi(
@@ -189,7 +174,7 @@ try {
 
 ### Authorization
 
-[Authorization](../../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -214,11 +199,6 @@ Create Asset
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-
-// Configure API key authorization: Authorization
-$config = GeminiCommerce\Dam\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
-// Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = GeminiCommerce\Dam\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
 
 $apiInstance = new GeminiCommerce\Dam\Api\BasicOperationsApi(
@@ -249,7 +229,7 @@ try {
 
 ### Authorization
 
-[Authorization](../../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -274,11 +254,6 @@ Get Asset By Code
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-
-// Configure API key authorization: Authorization
-$config = GeminiCommerce\Dam\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
-// Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = GeminiCommerce\Dam\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
 
 $apiInstance = new GeminiCommerce\Dam\Api\BasicOperationsApi(
@@ -309,7 +284,7 @@ try {
 
 ### Authorization
 
-[Authorization](../../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -334,11 +309,6 @@ Get Asset By Code
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-
-// Configure API key authorization: Authorization
-$config = GeminiCommerce\Dam\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
-// Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = GeminiCommerce\Dam\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
 
 $apiInstance = new GeminiCommerce\Dam\Api\BasicOperationsApi(
@@ -369,7 +339,7 @@ try {
 
 ### Authorization
 
-[Authorization](../../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -394,11 +364,6 @@ List Assets
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-
-// Configure API key authorization: Authorization
-$config = GeminiCommerce\Dam\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
-// Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = GeminiCommerce\Dam\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
 
 $apiInstance = new GeminiCommerce\Dam\Api\BasicOperationsApi(
@@ -429,7 +394,7 @@ try {
 
 ### Authorization
 
-[Authorization](../../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -454,11 +419,6 @@ List Assets By Codes
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-
-// Configure API key authorization: Authorization
-$config = GeminiCommerce\Dam\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
-// Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = GeminiCommerce\Dam\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
 
 $apiInstance = new GeminiCommerce\Dam\Api\BasicOperationsApi(
@@ -489,7 +449,7 @@ try {
 
 ### Authorization
 
-[Authorization](../../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -514,11 +474,6 @@ List Assets By Codes
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-
-// Configure API key authorization: Authorization
-$config = GeminiCommerce\Dam\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
-// Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = GeminiCommerce\Dam\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
 
 $apiInstance = new GeminiCommerce\Dam\Api\BasicOperationsApi(
@@ -549,7 +504,7 @@ try {
 
 ### Authorization
 
-[Authorization](../../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -574,11 +529,6 @@ List Assets By Ids
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-
-// Configure API key authorization: Authorization
-$config = GeminiCommerce\Dam\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
-// Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = GeminiCommerce\Dam\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
 
 $apiInstance = new GeminiCommerce\Dam\Api\BasicOperationsApi(
@@ -609,7 +559,7 @@ try {
 
 ### Authorization
 
-[Authorization](../../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -634,11 +584,6 @@ List Assets By Ids
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-
-// Configure API key authorization: Authorization
-$config = GeminiCommerce\Dam\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
-// Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = GeminiCommerce\Dam\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
 
 $apiInstance = new GeminiCommerce\Dam\Api\BasicOperationsApi(
@@ -669,7 +614,7 @@ try {
 
 ### Authorization
 
-[Authorization](../../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -694,11 +639,6 @@ List Assets
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-
-// Configure API key authorization: Authorization
-$config = GeminiCommerce\Dam\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
-// Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = GeminiCommerce\Dam\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
 
 $apiInstance = new GeminiCommerce\Dam\Api\BasicOperationsApi(
@@ -729,7 +669,7 @@ try {
 
 ### Authorization
 
-[Authorization](../../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -754,11 +694,6 @@ Update Asset
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-
-// Configure API key authorization: Authorization
-$config = GeminiCommerce\Dam\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
-// Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = GeminiCommerce\Dam\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
 
 $apiInstance = new GeminiCommerce\Dam\Api\BasicOperationsApi(
@@ -789,7 +724,7 @@ try {
 
 ### Authorization
 
-[Authorization](../../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -814,11 +749,6 @@ Update Asset
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-
-// Configure API key authorization: Authorization
-$config = GeminiCommerce\Dam\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
-// Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = GeminiCommerce\Dam\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
 
 $apiInstance = new GeminiCommerce\Dam\Api\BasicOperationsApi(
@@ -849,7 +779,7 @@ try {
 
 ### Authorization
 
-[Authorization](../../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
