@@ -6,7 +6,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**assets**| [**\GeminiCommerce\Dam\Model\DamAsset[]**](DamAsset.md) |   | [optional]
+**assets**| [**\OpenAPI\Client\Model\DamAsset[]**](DamAsset.md) |   | [optional]
 **next_page_token**| **string** | A token that can be sent as &#x60;page_token&#x60; to retrieve the next page. If this field is omitted, there are no subsequent pages.  | [optional]
 
 

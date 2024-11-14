@@ -9,9 +9,9 @@ Name | Type | Description | Notes
 **created_at**| **\DateTime** |   | [optional] [readonly]
 **updated_at**| **\DateTime** |   | [optional] [readonly]
 **id**| **string** |   | [optional]
-**type**| [**\GeminiCommerce\Dam\Model\DamAssetType**](DamAssetType.md) |  for more information please, see Model/DamAssetType.php  | [optional]
+**type**| [**\OpenAPI\Client\Model\DamAssetType**](DamAssetType.md) |  for more information please, see Model/DamAssetType.php  | [optional]
 **code**| **string** |   | [optional]
-**metadata**| [**\GeminiCommerce\Dam\Model\AssetMetadata[]**](AssetMetadata.md) |   | [optional]
+**metadata**| [**\OpenAPI\Client\Model\AssetMetadata[]**](AssetMetadata.md) |   | [optional]
 **grn**| **string** |   | [optional]
 **public_url**| **string** |   | [optional]
 

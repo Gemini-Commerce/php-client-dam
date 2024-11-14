@@ -1,4 +1,4 @@
-# GeminiCommerce\Dam\BasicOperationsApi
+# OpenAPI\Client\BasicOperationsApi
 
 All URIs are relative to https://dam.api.gogemini.io, except if the operation defines another base path.
 
@@ -23,7 +23,7 @@ All URIs are relative to https://dam.api.gogemini.io, except if the operation de
 ## `batchUploadAssets()`
 
 ```php
-batchUploadAssets($body): \GeminiCommerce\Dam\Model\DamBatchUploadAssetsResponse
+batchUploadAssets($body): \OpenAPI\Client\Model\DamBatchUploadAssetsResponse
 ```
 
 Batch Upload Assets
@@ -36,13 +36,13 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 
-$apiInstance = new GeminiCommerce\Dam\Api\BasicOperationsApi(
+$apiInstance = new OpenAPI\Client\Api\BasicOperationsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \GeminiCommerce\Dam\Model\DamBatchUploadAssetsRequest(); // \GeminiCommerce\Dam\Model\DamBatchUploadAssetsRequest
+$body = new \OpenAPI\Client\Model\DamBatchUploadAssetsRequest(); // \OpenAPI\Client\Model\DamBatchUploadAssetsRequest
 
 try {
     $result = $apiInstance->batchUploadAssets($body);
@@ -56,11 +56,11 @@ try {
 
 | Name | Type | Description  | Notes |
 | ------------- | ------------- | ------------- | ------------- |
-| **body** | [**\GeminiCommerce\Dam\Model\DamBatchUploadAssetsRequest**](../Model/DamBatchUploadAssetsRequest.md)|  | |
+| **body** | [**\OpenAPI\Client\Model\DamBatchUploadAssetsRequest**](../Model/DamBatchUploadAssetsRequest.md)|  | |
 
 ### Return type
 
-[**\GeminiCommerce\Dam\Model\DamBatchUploadAssetsResponse**](../Model/DamBatchUploadAssetsResponse.md)
+[**\OpenAPI\Client\Model\DamBatchUploadAssetsResponse**](../Model/DamBatchUploadAssetsResponse.md)
 
 ### Authorization
 
@@ -78,7 +78,7 @@ No authorization required
 ## `batchUploadAssets_0()`
 
 ```php
-batchUploadAssets_0($body): \GeminiCommerce\Dam\Model\DamBatchUploadAssetsResponse
+batchUploadAssets_0($body): \OpenAPI\Client\Model\DamBatchUploadAssetsResponse
 ```
 
 Batch Upload Assets
@@ -91,13 +91,13 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 
-$apiInstance = new GeminiCommerce\Dam\Api\BasicOperationsApi(
+$apiInstance = new OpenAPI\Client\Api\BasicOperationsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \GeminiCommerce\Dam\Model\DamBatchUploadAssetsRequest(); // \GeminiCommerce\Dam\Model\DamBatchUploadAssetsRequest
+$body = new \OpenAPI\Client\Model\DamBatchUploadAssetsRequest(); // \OpenAPI\Client\Model\DamBatchUploadAssetsRequest
 
 try {
     $result = $apiInstance->batchUploadAssets_0($body);
@@ -111,11 +111,11 @@ try {
 
 | Name | Type | Description  | Notes |
 | ------------- | ------------- | ------------- | ------------- |
-| **body** | [**\GeminiCommerce\Dam\Model\DamBatchUploadAssetsRequest**](../Model/DamBatchUploadAssetsRequest.md)|  | |
+| **body** | [**\OpenAPI\Client\Model\DamBatchUploadAssetsRequest**](../Model/DamBatchUploadAssetsRequest.md)|  | |
 
 ### Return type
 
-[**\GeminiCommerce\Dam\Model\DamBatchUploadAssetsResponse**](../Model/DamBatchUploadAssetsResponse.md)
+[**\OpenAPI\Client\Model\DamBatchUploadAssetsResponse**](../Model/DamBatchUploadAssetsResponse.md)
 
 ### Authorization
 
@@ -133,7 +133,7 @@ No authorization required
 ## `createAsset()`
 
 ```php
-createAsset($body): \GeminiCommerce\Dam\Model\DamAsset
+createAsset($body): \OpenAPI\Client\Model\DamAsset
 ```
 
 Create Asset
@@ -146,13 +146,13 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 
-$apiInstance = new GeminiCommerce\Dam\Api\BasicOperationsApi(
+$apiInstance = new OpenAPI\Client\Api\BasicOperationsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \GeminiCommerce\Dam\Model\DamCreateAssetRequest(); // \GeminiCommerce\Dam\Model\DamCreateAssetRequest
+$body = new \OpenAPI\Client\Model\DamCreateAssetRequest(); // \OpenAPI\Client\Model\DamCreateAssetRequest
 
 try {
     $result = $apiInstance->createAsset($body);
@@ -166,11 +166,11 @@ try {
 
 | Name | Type | Description  | Notes |
 | ------------- | ------------- | ------------- | ------------- |
-| **body** | [**\GeminiCommerce\Dam\Model\DamCreateAssetRequest**](../Model/DamCreateAssetRequest.md)|  | |
+| **body** | [**\OpenAPI\Client\Model\DamCreateAssetRequest**](../Model/DamCreateAssetRequest.md)|  | |
 
 ### Return type
 
-[**\GeminiCommerce\Dam\Model\DamAsset**](../Model/DamAsset.md)
+[**\OpenAPI\Client\Model\DamAsset**](../Model/DamAsset.md)
 
 ### Authorization
 
@@ -188,7 +188,7 @@ No authorization required
 ## `createAsset_0()`
 
 ```php
-createAsset_0($body): \GeminiCommerce\Dam\Model\DamAsset
+createAsset_0($body): \OpenAPI\Client\Model\DamAsset
 ```
 
 Create Asset
@@ -201,13 +201,13 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 
-$apiInstance = new GeminiCommerce\Dam\Api\BasicOperationsApi(
+$apiInstance = new OpenAPI\Client\Api\BasicOperationsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \GeminiCommerce\Dam\Model\DamCreateAssetRequest(); // \GeminiCommerce\Dam\Model\DamCreateAssetRequest
+$body = new \OpenAPI\Client\Model\DamCreateAssetRequest(); // \OpenAPI\Client\Model\DamCreateAssetRequest
 
 try {
     $result = $apiInstance->createAsset_0($body);
@@ -221,11 +221,11 @@ try {
 
 | Name | Type | Description  | Notes |
 | ------------- | ------------- | ------------- | ------------- |
-| **body** | [**\GeminiCommerce\Dam\Model\DamCreateAssetRequest**](../Model/DamCreateAssetRequest.md)|  | |
+| **body** | [**\OpenAPI\Client\Model\DamCreateAssetRequest**](../Model/DamCreateAssetRequest.md)|  | |
 
 ### Return type
 
-[**\GeminiCommerce\Dam\Model\DamAsset**](../Model/DamAsset.md)
+[**\OpenAPI\Client\Model\DamAsset**](../Model/DamAsset.md)
 
 ### Authorization
 
@@ -243,7 +243,7 @@ No authorization required
 ## `getAssetByCode()`
 
 ```php
-getAssetByCode($body): \GeminiCommerce\Dam\Model\DamAsset
+getAssetByCode($body): \OpenAPI\Client\Model\DamAsset
 ```
 
 Get Asset By Code
@@ -256,13 +256,13 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 
-$apiInstance = new GeminiCommerce\Dam\Api\BasicOperationsApi(
+$apiInstance = new OpenAPI\Client\Api\BasicOperationsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \GeminiCommerce\Dam\Model\DamGetAssetByCodeRequest(); // \GeminiCommerce\Dam\Model\DamGetAssetByCodeRequest
+$body = new \OpenAPI\Client\Model\DamGetAssetByCodeRequest(); // \OpenAPI\Client\Model\DamGetAssetByCodeRequest
 
 try {
     $result = $apiInstance->getAssetByCode($body);
@@ -276,11 +276,11 @@ try {
 
 | Name | Type | Description  | Notes |
 | ------------- | ------------- | ------------- | ------------- |
-| **body** | [**\GeminiCommerce\Dam\Model\DamGetAssetByCodeRequest**](../Model/DamGetAssetByCodeRequest.md)|  | |
+| **body** | [**\OpenAPI\Client\Model\DamGetAssetByCodeRequest**](../Model/DamGetAssetByCodeRequest.md)|  | |
 
 ### Return type
 
-[**\GeminiCommerce\Dam\Model\DamAsset**](../Model/DamAsset.md)
+[**\OpenAPI\Client\Model\DamAsset**](../Model/DamAsset.md)
 
 ### Authorization
 
@@ -298,7 +298,7 @@ No authorization required
 ## `getAssetByCode_0()`
 
 ```php
-getAssetByCode_0($body): \GeminiCommerce\Dam\Model\DamAsset
+getAssetByCode_0($body): \OpenAPI\Client\Model\DamAsset
 ```
 
 Get Asset By Code
@@ -311,13 +311,13 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 
-$apiInstance = new GeminiCommerce\Dam\Api\BasicOperationsApi(
+$apiInstance = new OpenAPI\Client\Api\BasicOperationsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \GeminiCommerce\Dam\Model\DamGetAssetByCodeRequest(); // \GeminiCommerce\Dam\Model\DamGetAssetByCodeRequest
+$body = new \OpenAPI\Client\Model\DamGetAssetByCodeRequest(); // \OpenAPI\Client\Model\DamGetAssetByCodeRequest
 
 try {
     $result = $apiInstance->getAssetByCode_0($body);
@@ -331,11 +331,11 @@ try {
 
 | Name | Type | Description  | Notes |
 | ------------- | ------------- | ------------- | ------------- |
-| **body** | [**\GeminiCommerce\Dam\Model\DamGetAssetByCodeRequest**](../Model/DamGetAssetByCodeRequest.md)|  | |
+| **body** | [**\OpenAPI\Client\Model\DamGetAssetByCodeRequest**](../Model/DamGetAssetByCodeRequest.md)|  | |
 
 ### Return type
 
-[**\GeminiCommerce\Dam\Model\DamAsset**](../Model/DamAsset.md)
+[**\OpenAPI\Client\Model\DamAsset**](../Model/DamAsset.md)
 
 ### Authorization
 
@@ -353,7 +353,7 @@ No authorization required
 ## `listAssets()`
 
 ```php
-listAssets($body): \GeminiCommerce\Dam\Model\DamListAssetsResponse
+listAssets($body): \OpenAPI\Client\Model\DamListAssetsResponse
 ```
 
 List Assets
@@ -366,13 +366,13 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 
-$apiInstance = new GeminiCommerce\Dam\Api\BasicOperationsApi(
+$apiInstance = new OpenAPI\Client\Api\BasicOperationsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \GeminiCommerce\Dam\Model\DamListAssetsRequest(); // \GeminiCommerce\Dam\Model\DamListAssetsRequest
+$body = new \OpenAPI\Client\Model\DamListAssetsRequest(); // \OpenAPI\Client\Model\DamListAssetsRequest
 
 try {
     $result = $apiInstance->listAssets($body);
@@ -386,11 +386,11 @@ try {
 
 | Name | Type | Description  | Notes |
 | ------------- | ------------- | ------------- | ------------- |
-| **body** | [**\GeminiCommerce\Dam\Model\DamListAssetsRequest**](../Model/DamListAssetsRequest.md)|  | |
+| **body** | [**\OpenAPI\Client\Model\DamListAssetsRequest**](../Model/DamListAssetsRequest.md)|  | |
 
 ### Return type
 
-[**\GeminiCommerce\Dam\Model\DamListAssetsResponse**](../Model/DamListAssetsResponse.md)
+[**\OpenAPI\Client\Model\DamListAssetsResponse**](../Model/DamListAssetsResponse.md)
 
 ### Authorization
 
@@ -408,7 +408,7 @@ No authorization required
 ## `listAssetsByCodes()`
 
 ```php
-listAssetsByCodes($body): \GeminiCommerce\Dam\Model\DamListAssetsByCodesResponse
+listAssetsByCodes($body): \OpenAPI\Client\Model\DamListAssetsByCodesResponse
 ```
 
 List Assets By Codes
@@ -421,13 +421,13 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 
-$apiInstance = new GeminiCommerce\Dam\Api\BasicOperationsApi(
+$apiInstance = new OpenAPI\Client\Api\BasicOperationsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \GeminiCommerce\Dam\Model\DamListAssetsByCodesRequest(); // \GeminiCommerce\Dam\Model\DamListAssetsByCodesRequest
+$body = new \OpenAPI\Client\Model\DamListAssetsByCodesRequest(); // \OpenAPI\Client\Model\DamListAssetsByCodesRequest
 
 try {
     $result = $apiInstance->listAssetsByCodes($body);
@@ -441,11 +441,11 @@ try {
 
 | Name | Type | Description  | Notes |
 | ------------- | ------------- | ------------- | ------------- |
-| **body** | [**\GeminiCommerce\Dam\Model\DamListAssetsByCodesRequest**](../Model/DamListAssetsByCodesRequest.md)|  | |
+| **body** | [**\OpenAPI\Client\Model\DamListAssetsByCodesRequest**](../Model/DamListAssetsByCodesRequest.md)|  | |
 
 ### Return type
 
-[**\GeminiCommerce\Dam\Model\DamListAssetsByCodesResponse**](../Model/DamListAssetsByCodesResponse.md)
+[**\OpenAPI\Client\Model\DamListAssetsByCodesResponse**](../Model/DamListAssetsByCodesResponse.md)
 
 ### Authorization
 
@@ -463,7 +463,7 @@ No authorization required
 ## `listAssetsByCodes_0()`
 
 ```php
-listAssetsByCodes_0($body): \GeminiCommerce\Dam\Model\DamListAssetsByCodesResponse
+listAssetsByCodes_0($body): \OpenAPI\Client\Model\DamListAssetsByCodesResponse
 ```
 
 List Assets By Codes
@@ -476,13 +476,13 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 
-$apiInstance = new GeminiCommerce\Dam\Api\BasicOperationsApi(
+$apiInstance = new OpenAPI\Client\Api\BasicOperationsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \GeminiCommerce\Dam\Model\DamListAssetsByCodesRequest(); // \GeminiCommerce\Dam\Model\DamListAssetsByCodesRequest
+$body = new \OpenAPI\Client\Model\DamListAssetsByCodesRequest(); // \OpenAPI\Client\Model\DamListAssetsByCodesRequest
 
 try {
     $result = $apiInstance->listAssetsByCodes_0($body);
@@ -496,11 +496,11 @@ try {
 
 | Name | Type | Description  | Notes |
 | ------------- | ------------- | ------------- | ------------- |
-| **body** | [**\GeminiCommerce\Dam\Model\DamListAssetsByCodesRequest**](../Model/DamListAssetsByCodesRequest.md)|  | |
+| **body** | [**\OpenAPI\Client\Model\DamListAssetsByCodesRequest**](../Model/DamListAssetsByCodesRequest.md)|  | |
 
 ### Return type
 
-[**\GeminiCommerce\Dam\Model\DamListAssetsByCodesResponse**](../Model/DamListAssetsByCodesResponse.md)
+[**\OpenAPI\Client\Model\DamListAssetsByCodesResponse**](../Model/DamListAssetsByCodesResponse.md)
 
 ### Authorization
 
@@ -518,7 +518,7 @@ No authorization required
 ## `listAssetsByIds()`
 
 ```php
-listAssetsByIds($body): \GeminiCommerce\Dam\Model\DamListAssetsByIdsResponse
+listAssetsByIds($body): \OpenAPI\Client\Model\DamListAssetsByIdsResponse
 ```
 
 List Assets By Ids
@@ -531,13 +531,13 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 
-$apiInstance = new GeminiCommerce\Dam\Api\BasicOperationsApi(
+$apiInstance = new OpenAPI\Client\Api\BasicOperationsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \GeminiCommerce\Dam\Model\DamListAssetsByIdsRequest(); // \GeminiCommerce\Dam\Model\DamListAssetsByIdsRequest
+$body = new \OpenAPI\Client\Model\DamListAssetsByIdsRequest(); // \OpenAPI\Client\Model\DamListAssetsByIdsRequest
 
 try {
     $result = $apiInstance->listAssetsByIds($body);
@@ -551,11 +551,11 @@ try {
 
 | Name | Type | Description  | Notes |
 | ------------- | ------------- | ------------- | ------------- |
-| **body** | [**\GeminiCommerce\Dam\Model\DamListAssetsByIdsRequest**](../Model/DamListAssetsByIdsRequest.md)|  | |
+| **body** | [**\OpenAPI\Client\Model\DamListAssetsByIdsRequest**](../Model/DamListAssetsByIdsRequest.md)|  | |
 
 ### Return type
 
-[**\GeminiCommerce\Dam\Model\DamListAssetsByIdsResponse**](../Model/DamListAssetsByIdsResponse.md)
+[**\OpenAPI\Client\Model\DamListAssetsByIdsResponse**](../Model/DamListAssetsByIdsResponse.md)
 
 ### Authorization
 
@@ -573,7 +573,7 @@ No authorization required
 ## `listAssetsByIds_0()`
 
 ```php
-listAssetsByIds_0($body): \GeminiCommerce\Dam\Model\DamListAssetsByIdsResponse
+listAssetsByIds_0($body): \OpenAPI\Client\Model\DamListAssetsByIdsResponse
 ```
 
 List Assets By Ids
@@ -586,13 +586,13 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 
-$apiInstance = new GeminiCommerce\Dam\Api\BasicOperationsApi(
+$apiInstance = new OpenAPI\Client\Api\BasicOperationsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \GeminiCommerce\Dam\Model\DamListAssetsByIdsRequest(); // \GeminiCommerce\Dam\Model\DamListAssetsByIdsRequest
+$body = new \OpenAPI\Client\Model\DamListAssetsByIdsRequest(); // \OpenAPI\Client\Model\DamListAssetsByIdsRequest
 
 try {
     $result = $apiInstance->listAssetsByIds_0($body);
@@ -606,11 +606,11 @@ try {
 
 | Name | Type | Description  | Notes |
 | ------------- | ------------- | ------------- | ------------- |
-| **body** | [**\GeminiCommerce\Dam\Model\DamListAssetsByIdsRequest**](../Model/DamListAssetsByIdsRequest.md)|  | |
+| **body** | [**\OpenAPI\Client\Model\DamListAssetsByIdsRequest**](../Model/DamListAssetsByIdsRequest.md)|  | |
 
 ### Return type
 
-[**\GeminiCommerce\Dam\Model\DamListAssetsByIdsResponse**](../Model/DamListAssetsByIdsResponse.md)
+[**\OpenAPI\Client\Model\DamListAssetsByIdsResponse**](../Model/DamListAssetsByIdsResponse.md)
 
 ### Authorization
 
@@ -628,7 +628,7 @@ No authorization required
 ## `listAssets_0()`
 
 ```php
-listAssets_0($body): \GeminiCommerce\Dam\Model\DamListAssetsResponse
+listAssets_0($body): \OpenAPI\Client\Model\DamListAssetsResponse
 ```
 
 List Assets
@@ -641,13 +641,13 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 
-$apiInstance = new GeminiCommerce\Dam\Api\BasicOperationsApi(
+$apiInstance = new OpenAPI\Client\Api\BasicOperationsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \GeminiCommerce\Dam\Model\DamListAssetsRequest(); // \GeminiCommerce\Dam\Model\DamListAssetsRequest
+$body = new \OpenAPI\Client\Model\DamListAssetsRequest(); // \OpenAPI\Client\Model\DamListAssetsRequest
 
 try {
     $result = $apiInstance->listAssets_0($body);
@@ -661,11 +661,11 @@ try {
 
 | Name | Type | Description  | Notes |
 | ------------- | ------------- | ------------- | ------------- |
-| **body** | [**\GeminiCommerce\Dam\Model\DamListAssetsRequest**](../Model/DamListAssetsRequest.md)|  | |
+| **body** | [**\OpenAPI\Client\Model\DamListAssetsRequest**](../Model/DamListAssetsRequest.md)|  | |
 
 ### Return type
 
-[**\GeminiCommerce\Dam\Model\DamListAssetsResponse**](../Model/DamListAssetsResponse.md)
+[**\OpenAPI\Client\Model\DamListAssetsResponse**](../Model/DamListAssetsResponse.md)
 
 ### Authorization
 
@@ -683,7 +683,7 @@ No authorization required
 ## `updateAsset()`
 
 ```php
-updateAsset($body): \GeminiCommerce\Dam\Model\DamAsset
+updateAsset($body): \OpenAPI\Client\Model\DamAsset
 ```
 
 Update Asset
@@ -696,13 +696,13 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 
-$apiInstance = new GeminiCommerce\Dam\Api\BasicOperationsApi(
+$apiInstance = new OpenAPI\Client\Api\BasicOperationsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \GeminiCommerce\Dam\Model\DamUpdateAssetRequest(); // \GeminiCommerce\Dam\Model\DamUpdateAssetRequest
+$body = new \OpenAPI\Client\Model\DamUpdateAssetRequest(); // \OpenAPI\Client\Model\DamUpdateAssetRequest
 
 try {
     $result = $apiInstance->updateAsset($body);
@@ -716,11 +716,11 @@ try {
 
 | Name | Type | Description  | Notes |
 | ------------- | ------------- | ------------- | ------------- |
-| **body** | [**\GeminiCommerce\Dam\Model\DamUpdateAssetRequest**](../Model/DamUpdateAssetRequest.md)|  | |
+| **body** | [**\OpenAPI\Client\Model\DamUpdateAssetRequest**](../Model/DamUpdateAssetRequest.md)|  | |
 
 ### Return type
 
-[**\GeminiCommerce\Dam\Model\DamAsset**](../Model/DamAsset.md)
+[**\OpenAPI\Client\Model\DamAsset**](../Model/DamAsset.md)
 
 ### Authorization
 
@@ -738,7 +738,7 @@ No authorization required
 ## `updateAsset_0()`
 
 ```php
-updateAsset_0($body): \GeminiCommerce\Dam\Model\DamAsset
+updateAsset_0($body): \OpenAPI\Client\Model\DamAsset
 ```
 
 Update Asset
@@ -751,13 +751,13 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 
-$apiInstance = new GeminiCommerce\Dam\Api\BasicOperationsApi(
+$apiInstance = new OpenAPI\Client\Api\BasicOperationsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \GeminiCommerce\Dam\Model\DamUpdateAssetRequest(); // \GeminiCommerce\Dam\Model\DamUpdateAssetRequest
+$body = new \OpenAPI\Client\Model\DamUpdateAssetRequest(); // \OpenAPI\Client\Model\DamUpdateAssetRequest
 
 try {
     $result = $apiInstance->updateAsset_0($body);
@@ -771,11 +771,11 @@ try {
 
 | Name | Type | Description  | Notes |
 | ------------- | ------------- | ------------- | ------------- |
-| **body** | [**\GeminiCommerce\Dam\Model\DamUpdateAssetRequest**](../Model/DamUpdateAssetRequest.md)|  | |
+| **body** | [**\OpenAPI\Client\Model\DamUpdateAssetRequest**](../Model/DamUpdateAssetRequest.md)|  | |
 
 ### Return type
 
-[**\GeminiCommerce\Dam\Model\DamAsset**](../Model/DamAsset.md)
+[**\OpenAPI\Client\Model\DamAsset**](../Model/DamAsset.md)
 
 ### Authorization
 

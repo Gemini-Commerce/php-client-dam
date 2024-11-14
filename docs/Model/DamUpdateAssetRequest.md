@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **tenant_id**| **string** |   |
 **id**| **string** |   |
-**payload**| [**\GeminiCommerce\Dam\Model\UpdateAssetRequestPayload**](UpdateAssetRequestPayload.md) |   | [optional]
+**payload**| [**\OpenAPI\Client\Model\UpdateAssetRequestPayload**](UpdateAssetRequestPayload.md) |   | [optional]
 **payload_mask**| **string** |   | [optional]
 
 
